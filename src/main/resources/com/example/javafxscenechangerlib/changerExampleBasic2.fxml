@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.javafxscenechangerlib.example.ExampleBasic2">
+   <Button fx:id="Basic1" layoutX="257.0" layoutY="178.0" mnemonicParsing="false" onAction="#ChangeBTNs" text="Basic1">
+      <font>
+         <Font size="20.0"/>
+      </font>
+   </Button>
+   <Label layoutX="31.0" layoutY="31.0" prefHeight="68.0" prefWidth="565.0" text="This is a Textscene Basic 2">
+      <font>
+         <Font size="46.0"/>
+      </font>
+   </Label>
+   <Button fx:id="MenuBTN" layoutX="31.0" layoutY="344.0" mnemonicParsing="false" onAction="#ChangeBTNs" text="MENU"/>
+</AnchorPane>
