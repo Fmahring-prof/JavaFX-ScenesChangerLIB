@@ -20,8 +20,8 @@ in fxml use your fxml-file
 
 
 put 
-
-  opens <your main class path> to javafx.fxml;
-  exports <your main class path + folder inside>;
+  
+    opens <your main class path> to javafx.fxml;
+    exports <your main class path + folder inside>;
 
 in the module-java.info file
