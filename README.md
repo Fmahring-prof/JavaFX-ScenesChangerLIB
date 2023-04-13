@@ -12,12 +12,10 @@ IMPORTANT!!
 
 Use 
         
-        FXChanger.oldStage = primaryStage;
+        FXChanger.oldStage = <your stage(primaryStage)>;
   
 in the start Method
 
 to change scenes use:
 
-      FXChanger.ChangeScenes("fxml", "SceneTitle");
- 
-in fxml use your fxml-file
+      FXChanger.ChangeScenes("<your fxml file>", "SceneTitle");
